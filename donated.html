@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 <title>Page Title</title>
@@ -7,129 +8,47 @@
 <h1>How Much Have We Donated?</h1>
 <p>From the generous visitors to this page we are able to contribute to the different organizations. Here is the progress that we have so far organized in a bar graph!</p>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8" />
-	<title>Test</title>
-	<link rel="stylesheet" href="assets/css/chart.min.css" />
-</head>
-<body>
-
-	<div class="charts">
-		<div class="charts__chart chart--p50"></div><!-- /.charts__chart -->
-		<div class="charts__chart chart--p60"></div><!-- /.charts__chart -->
-		<div class="charts__chart chart--p70"></div><!-- /.charts__chart -->
-		<div class="charts__chart chart--p80"></div><!-- /.charts__chart -->
-		<div class="charts__chart chart--p90"></div><!-- /.charts__chart -->
-	</div><!-- /.charts -->
-
-	<div class="charts">
-		<div class="charts__chart chart--p100 chart--xs" data-percent></div><!-- /.charts__chart -->
-		<div class="charts__chart chart--p80 chart--sm" data-percent></div><!-- /.charts__chart -->
-		<div class="charts__chart chart--p60" data-percent></div><!-- /.charts__chart -->
-		<div class="charts__chart chart--p40 chart--lg" data-percent></div><!-- /.charts__chart -->
-		<div class="charts__chart chart--p20 chart--xl" data-percent></div><!-- /.charts__chart -->
-	</div><!-- /.charts -->
-
-	<div class="charts">
-		<span>chart--default</span>
-		<div class="charts__chart chart--p100 chart--default" data-percent></div><!-- /.charts__chart -->
-		<span>chart--blue</span>
-		<div class="charts__chart chart--p80 chart--blue" data-percent></div><!-- /.charts__chart -->
-		<span>chart--green</span>
-		<div class="charts__chart chart--p60 chart--green" data-percent></div><!-- /.charts__chart -->
-		<span>chart--red</span>
-		<div class="charts__chart chart--p40 chart--red" data-percent></div><!-- /.charts__chart -->
-		<span>chart--yellow</span>
-		<div class="charts__chart chart--p20 chart--yellow" data-percent></div><!-- /.charts__chart -->
-		<span>chart--grey</span>
-		<div class="charts__chart chart--p5 chart--grey" data-percent></div><!-- /.charts__chart -->
-	</div><!-- /.charts -->
-
-	<div class="charts charts--grouped">
-		<div class="charts__chart chart--p100 chart--sm" data-percent>
-			<div class="charts__chart chart--p80  chart--blue" data-percent>
-				<div class="charts__chart chart--p60  chart--green" data-percent></div><!-- /.charts__chart -->
-			</div><!-- /.charts__chart -->
-		</div><!-- /.charts__chart -->
-
-		<div class="charts__chart chart--p70" data-percent>
-			<div class="charts__chart chart--p80  chart--grey" data-percent>
-				<div class="charts__chart chart--p60  chart--yellow" data-percent></div><!-- /.charts__chart -->
-			</div><!-- /.charts__chart -->
-		</div><!-- /.charts__chart -->
-
-		
-		<div class="charts__chart chart--p50 chart--lg" data-percent>
-			<div class="charts__chart chart--p80  chart--red" data-percent>
-				<div class="charts__chart chart--p60  chart--inverse" data-percent></div><!-- /.charts__chart -->
-			</div><!-- /.charts__chart -->
-		</div><!-- /.charts__chart -->
-
-	</div>
-
-	<div class="charts charts--vertical">
-		<div class="charts__chart">
-			<span class="charts__percent"></span>
-		</div><!-- /.charts__chart -->
-		<div class="charts__chart chart--p80">
-			<span class="charts__percent"></span>
-		</div><!-- /.charts__chart -->
-		<div class="charts__chart chart--p60">
-			<span class="charts__percent"></span>
-		</div><!-- /.charts__chart -->
-
-		<div class="charts__chart chart--p100                chart--hover">
-			<span class="charts__percent"></span>
-		</div><!-- /.charts__chart -->
-		<div class="charts__chart chart--p80  chart--blue    chart--hover">
-			<span class="charts__percent"></span>
-		</div><!-- /.charts__chart -->
-		<div class="charts__chart chart--p60  chart--green   chart--hover">
-			<span class="charts__percent"></span>
-		</div><!-- /.charts__chart -->
-		<div class="charts__chart chart--p40  chart--red     chart--hover">
-			<span class="charts__percent"></span>
-		</div><!-- /.charts__chart -->
-		<div class="charts__chart chart--p20  chart--yellow  chart--hover">
-			<span class="charts__percent"></span>
-		</div><!-- /.charts__chart -->
-		<div class="charts__chart chart--p5   chart--grey    chart--hover">
-			<span class="charts__percent"></span>
-		</div><!-- /.charts__chart -->
-
-		<div class="charts__chart chart--p100 chart--xs">
-			<span class="charts__percent"></span>
-		</div><!-- /.charts__chart -->
-		<div class="charts__chart chart--p80 chart--sm">
-			<span class="charts__percent"></span>
-		</div><!-- /.charts__chart -->
-
-		<div class="charts__chart chart--p10 chart--xs">
-			<span class="charts__percent"></span>
-		</div><!-- /.charts__chart -->
-		<div class="charts__chart chart--p40 chart--sm">
-			<span class="charts__percent"></span>
-		</div><!-- /.charts__chart -->
-
-		<div class="charts__chart chart--p60 chart--xs">
-			<span class="charts__percent"></span>
-		</div><!-- /.charts__chart -->
-		<div class="charts__chart chart--p50 chart--sm">
-			<span class="charts__percent"></span>
-		</div><!-- /.charts__chart -->
-		<div class="charts__chart chart--p60">
-			<span class="charts__percent"></span>
-		</div><!-- /.charts__chart -->
-		<div class="charts__chart chart--p40 chart--lg">
-			<span class="charts__percent"></span>
-		</div><!-- /.charts__chart -->
-		<div class="charts__chart chart--p20 chart--xl">
-			<span class="charts__percent">Title</span>
-		</div><!-- /.charts__chart -->
-
-	</div>
+	<div id="graphDiv1"></div>
+	<br />
+	<div id="graphDiv2"></div>
+	<!--[if IE]><script src="excanvas.js"></script><![endif]-->
+	<script src="html5-canvas-bar-graph.js"></script>
+	<script>(function () {
 	
+		function createCanvas(divName) {
+			
+			var div = document.getElementById(divName);
+			var canvas = document.createElement('canvas');
+			div.appendChild(canvas);
+			if (typeof G_vmlCanvasManager != 'undefined') {
+				canvas = G_vmlCanvasManager.initElement(canvas);
+			}	
+			var ctx = canvas.getContext("2d");
+			return ctx;
+		}
+		
+		var ctx = createCanvas("graphDiv1");
+		
+		var graph = new BarGraph(ctx);
+		graph.maxValue = 30;
+		graph.margin = 2;
+		graph.colors = ["#49a0d8", "#d353a0", "#ffc527", "#df4c27"];
+		graph.xAxisLabelArr = ["North", "East", "West", "South"];
+		setInterval(function () {
+			graph.update([Math.random() * 30, Math.random() * 30, Math.random() * 30, Math.random() * 30]);
+		}, 1000);
+		
+		var ctx2 = createCanvas("graphDiv2");
+		
+		var graph2 = new BarGraph(ctx2);
+		graph2.margin = 2;
+		graph2.width = 450;
+		graph2.height = 150;
+		graph2.xAxisLabelArr = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", 		"K", "L", "M"];
+		setInterval(function () {
+			graph2.update([Math.random() * 20, Math.random() * 20, Math.random() * 20, Math.random() * 20, Math.random() * 20, Math.random() * 20, Math.random() * 20, Math.random() * 20, Math.random() * 20, Math.random() * 20, Math.random() * 20, Math.random() * 20, Math.random() * 20]);
+		}, 1500);
+
+	}());</script>
 </body>
 </html>
