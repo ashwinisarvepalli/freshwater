@@ -1,20 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <style>
-      #map {
-        width: 100%;
-        height: 400px;
-        background-color: grey;
-      }
-    </style>
-  </head>
-  <body>
-    <h3>My Google Maps Demo</h3>
-    <div id="map"></div>
-  </body>
-</html>
-#########################################
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -26,17 +10,38 @@
     </style>
   </head>
   <body>
-    <h3>My Google Maps Demo</h3>
+    <h3>Places In Need of Fresh Water</h3>
     <div id="map"></div>
     <script>
       function initMap() {
-        var uluru = {lat: -25.363, lng: 131.044};
+      	var center = {lat: 0, lng: 0};
+        var cape = {lat: -33.9248685, lng: 18.424055299999964};
+        var flint = {lat: 43.0125274, lng: -83.68745619999999};
+        var kenya = {lat: -0.023559, lng: 37.90619300000003};
+        var bang = {lat: 23.684994, lng: 90.35633099999995};
+        var india = {lat: 20.593684, lng: 78.96288000000004};
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 4,
-          center: uluru
+          zoom: 1,
+          center: center
         });
         var marker = new google.maps.Marker({
-          position: uluru,
+          position: cape,
+          map: map
+        });
+        var marker2 = new google.maps.Marker({
+          position: flint,
+          map: map
+        });
+        var marker3 = new google.maps.Marker({
+          position: kenya,
+          map: map
+        });
+        var marker4 = new google.maps.Marker({
+          position: bang,
+          map: map
+        });
+        var marker5 = new google.maps.Marker({
+          position: india,
           map: map
         });
       }
