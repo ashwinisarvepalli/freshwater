@@ -1,7 +1,18 @@
 <!DOCTYPE html>
 <html>
-  <h1>Different Organzations</h1>
-  
+<body>
 
+<h1 style="font-size:50px;">Different Organizations</h1>
+<h1 style="font-size:25px;">Pure Water for the World</h1>
+<p>Providing tools and education to establish sustainable safe water, hygiene and sanitation programs in Central America and the Caribbean</p>
+<h1 style="font-size:25px;">Planet Water Foundation</h1>
+<p>Supporitng nearly 1 million people in 13 countries through the installation of community-based water filtration systems and deploying hygiene education programs into impoverished communities, focused on communities in Asia and Latin America</p>
+<h1 style="font-size:25px;">Water.org</h1>
+<p>Empowered more than 10 million people across three continents of the world with access to safe water and sanitation, giving people hope, children health, and communities a future</p>
+<h1 style="font-size:25px;">WaterisLife</h1>
+<p>Generating new Clean Sip Straw Filters, Bucket Filter Systems, and other filtration systems to provide safe and clean water across the globe</p>
+
+
+
+</body>
 </html>
-  
