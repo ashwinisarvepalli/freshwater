@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=DrawQuestion4
+comment0.text=\n\ Class\ DrawQuestion\n\n\ @author\ Sarayu\ Namineni\n\ @version\ 2018-04-21\n
+comment1.params=username
+comment1.target=DrawQuestion4(java.lang.String)
+comment10.params=e
+comment10.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment2.params=
+comment2.target=void\ input_file()
+comment3.params=
+comment3.target=void\ output_file()
+comment4.params=g
+comment4.target=void\ paintComponent(java.awt.Graphics)
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+comment6.params=e
+comment6.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment7.params=e
+comment7.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment8.params=e
+comment8.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment9.params=e
+comment9.target=void\ actionPerformed(java.awt.event.ActionEvent)
+numComments=11

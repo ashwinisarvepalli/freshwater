@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Question
+comment0.text=\n\ Class\ Question\n\n\ @author\ Sarayu\ Namineni\n\ @version\ 2018-04-21\n
+comment1.params=question\ answers
+comment1.target=Question(java.lang.String,\ java.lang.String[])
+comment2.params=
+comment2.target=java.util.ArrayList\ randomize_answers()
+comment3.params=
+comment3.target=java.lang.String\ get_question()
+comment4.params=
+comment4.target=java.lang.String[]\ getAnswers()
+comment5.params=index
+comment5.target=java.lang.String\ get_answer(int)
+comment6.params=
+comment6.target=int\ get_right_answer_index()
+numComments=7
